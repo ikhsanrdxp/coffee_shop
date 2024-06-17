@@ -78,7 +78,7 @@ class DashboardPage extends StatelessWidget {
               height: 150,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20),
-                image: DecorationImage(
+                image: const DecorationImage(
                     image: AssetImage("assets/images/Banner 1.png"),
                     fit: BoxFit.cover),
               ),
@@ -93,7 +93,7 @@ class DashboardPage extends StatelessWidget {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(7),
                           color: Colors.redAccent),
-                      child: Center(
+                      child: const Center(
                         child: Text(
                           "Promo",
                           style: TextStyle(
@@ -103,8 +103,8 @@ class DashboardPage extends StatelessWidget {
                         ),
                       ),
                     ),
-                    SizedBox(height: 10,),
-                    Text(
+                    const SizedBox(height: 10,),
+                    const Text(
                       "Buy one get\none FREE",
                       style: TextStyle(
                         fontFamily: 'Inter',
