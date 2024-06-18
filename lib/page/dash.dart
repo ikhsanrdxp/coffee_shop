@@ -1,6 +1,7 @@
 import 'package:coffe_shop/page/product_view.dart';
 import 'package:coffe_shop/util/color.dart';
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class Dash extends StatelessWidget {
   const Dash({super.key});
@@ -22,12 +23,12 @@ class Dash extends StatelessWidget {
               color: AppColor.mainColor,
             ),
             Icon(
-              Icons.heart_broken,
+              FontAwesomeIcons.heart,
               size: 30,
               color: Colors.black87,
             ),
             Icon(
-              Icons.do_disturb,
+              FontAwesomeIcons.bagShopping,
               size: 30,
             ),
             Icon(
@@ -99,7 +100,7 @@ class Dash extends StatelessWidget {
                                   borderRadius: BorderRadius.circular(10),
                                   color: AppColor.mainColor),
                               child: const Icon(
-                                Icons.menu_open_rounded,
+                                FontAwesomeIcons.barsStaggered,
                                 color: Colors.white,
                               ),
                             )
