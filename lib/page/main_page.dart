@@ -1,7 +1,6 @@
 import 'package:coffe_shop/page/product_grid.dart';
 import 'package:coffe_shop/util/color.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class MainPage extends StatelessWidget {
@@ -20,6 +19,7 @@ class MainPage extends StatelessWidget {
         child: const Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
+            // ignore: deprecated_member_use
             Icon(FontAwesomeIcons.home,color: AppColor.mainColor,),
             Icon(FontAwesomeIcons.heart,color: AppColor.textColor,),
             Icon(FontAwesomeIcons.bagShopping,color: AppColor.textColor,),
@@ -231,7 +231,7 @@ class MainPage extends StatelessWidget {
                 ),
               ],
             ),
-            ProductGrid()
+            const ProductGrid()
           ],
         ),
       ),

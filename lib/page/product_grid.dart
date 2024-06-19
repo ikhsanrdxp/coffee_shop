@@ -10,7 +10,7 @@ class ProductGrid extends StatelessWidget {
     final Product myProduct = Product();
 
     return Container(
-      margin: EdgeInsets.only(left: 30, right: 30),
+      margin: const EdgeInsets.only(left: 30, right: 30),
       height: 700,
       child: GridView.builder(
           physics: const NeverScrollableScrollPhysics(),
@@ -51,7 +51,7 @@ class ProductGrid extends StatelessWidget {
                             ),
                             Text(
                               "4.8",
-                              style: const TextStyle(
+                              style: TextStyle(
                                   fontSize: 12,color: Colors.white,
                                   fontFamily: 'Inter',),
                             ),
